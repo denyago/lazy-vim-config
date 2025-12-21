@@ -11,6 +11,9 @@ return {
       opts.formatters_by_ft.json = { "prettier" }
       opts.formatters_by_ft.jsonc = { "prettier" }
 
+      -- Nix
+      opts.formatters_by_ft.nix = { "nixfmt" }
+
       return opts
     end,
   },
